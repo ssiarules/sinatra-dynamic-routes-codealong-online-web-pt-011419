@@ -14,6 +14,7 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
+<<<<<<< HEAD
   get "/goodbye/:name" do 
     @user_name = params[:name]
     "Goodbye, #{@user_name}."
@@ -27,5 +28,10 @@ class App < Sinatra::Base
     
     
     
+=======
+  get '/goodbye/:name' do 
+    @user_name = params[:name]
+    "Goodbye, #{@user_name}!"
+>>>>>>> 9733e8a3f91fbebec159abefbb0b4e55f23e0f31
 
 end
